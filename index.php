@@ -213,7 +213,7 @@ require_once "characters\beast.php";
 				echo 	 $lifeRemain . ' life after attack '; 
 				$defensive->setLife($lifeRemain); 
 
-				if($lifeRemain < 0 ){
+				if($lifeRemain <= 0 ){
 					echo '<p> Game over: ' . $firstA->getName() . ' won </p>';
 				}
 				
