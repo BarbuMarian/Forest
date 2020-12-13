@@ -1,7 +1,7 @@
 <?php 
 
 
-require_once 'characters\characters.php';
+require_once 'characters.php';
 
 
 
